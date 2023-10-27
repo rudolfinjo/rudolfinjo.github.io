@@ -71,6 +71,12 @@ nav li {
   text-decoration: underline;
 }
 
+.anchor {
+  display: block;
+  padding-top: 40px;
+  margin-top: -40px;
+}
+
 main {
   margin-top: 69px;
   display: flex;
@@ -96,7 +102,6 @@ main {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-bottom: 60px;
 }
 
 .banner-headings {
@@ -111,7 +116,7 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 60px;
+  padding: 80px 0;
 }
 
 .collection-tea {
